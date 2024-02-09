@@ -5,7 +5,33 @@
 
 body {
     background: rgb(38,184,142);
-    background: linear-gradient(90deg, rgba(38,184,142,1) 0%, rgba(0,122,117,1) 100%);      
+    background: linear-gradient(90deg, #1f7157  0%, #57a57f 50%, #1f7157  100%);      
+}
+
+.debutant {
+    background-color: #204365;
+    background: linear-gradient(90deg, #202f3c 0%, #204365 50%, #202f3c 100%); 
+}
+
+.debutant .nav-top, .debutant .navigation:hover, .debutant .navigation.active {
+    background-color: #6d95bb;
+}
+
+.debutant .mouv-container {
+    color: #5785b1;
+}
+
+.inter {
+    background-color: #4b274c;
+    background: linear-gradient(90deg, #2c102f 0%, #4b274c 50%, #2c102f 100%); 
+}
+
+.inter .nav-top, .inter .navigation:hover, .inter .navigation.active {
+    background-color: #ab7aac;
+}
+
+.inter .mouv-container {
+    color: #8b4e8c;
 }
 
 a {
@@ -33,7 +59,7 @@ a {
 .nav-top {
     width:100%;
     height:24px;
-    background-color: #a2d3ce;
+    background-color: #a2d3c1;
 }
 
 .navigation {
@@ -47,7 +73,7 @@ a {
 }
 
 .navigation:hover {
-    background-color: #a2d3ce;
+    background-color: #a2d3c1;
 }
 
 .navigation:hover a, .navigation.active a  {
@@ -55,13 +81,13 @@ a {
 }
 
 .navigation.active {
-    background-color: #a2d3ce;
+    background-color: #a2d3c1;
 }
 
 .mouv-container {
     width: 640px;
     background-color: #ffffff;
-    color:#1d918e;;
+    color:#478d77;
     text-align: center;
     padding: 20px;
     margin:20px auto;
