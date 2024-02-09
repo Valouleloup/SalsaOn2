@@ -23,7 +23,7 @@ body {
 
 .inter {
     background-color: #4b274c;
-    background: linear-gradient(90deg, #2c102f 0%, #4b274c 50%, #2c102f 100%); 
+    background: linear-gradient(90deg, #2c102f 0%, #5a2f5c 50%, #2c102f 100%); 
 }
 
 .inter .nav-top, .inter .navigation:hover, .inter .navigation.active {
