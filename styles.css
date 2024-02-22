@@ -34,6 +34,19 @@ body {
     color: #8b4e8c;
 }
 
+.styling {
+    background-color: #4b274c;
+    background: linear-gradient(90deg, #20222f 0%, #615a48 50%, #20222f 100%); 
+}
+
+.styling .nav-top, .styling .navigation:hover, .styling .navigation.active {
+    background-color: #aa9c76;
+}
+
+.styling .mouv-container {
+    color: #aa9c76;
+}
+
 a {
     text-decoration: none;
     color:#444;
